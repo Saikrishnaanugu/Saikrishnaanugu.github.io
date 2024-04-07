@@ -8,6 +8,30 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<script>
+		function downloadPDF() {
+			// Path to the PDF file within your project
+			const pdfPath = '.documents/sai krishna resume .pdf';
+			
+			// Create an anchor element
+			const a = document.createElement('a');
+
+			// Set the href attribute with the path to the PDF file
+			a.href = pdfPath;
+			a.target = '_blank';
+
+			// Set the download attribute with the desired file name
+			a.download = 'sai krishna resume .pdf';
+
+			// Append the anchor to the document and trigger a click event
+			document.body.appendChild(a);
+			a.click();
+
+			// Remove the anchor from the document
+			document.body.removeChild(a);
+			}
+			
+		</script>
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
@@ -125,7 +149,7 @@
 									<a href="#" class="image fit"><img src=" " alt="" /></a>
 									<p>The use of Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) to create new data samples has grown in popularity. In this study, the MNIST dataset was employed initially and then moved on to study face images. Trained both models and then compared how well they produced new digits. Our results demonstrated that while VAEs produced less defined images but allowed better control over the generated samples, GANs produced more realistic images. Both models’ latent spaces showed that they could capture accurate representations of the input data. Overall, the use of GANs and VAEs on MNIST has revealed useful information on the advantages and disadvantages of both models for creating new data samples.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/Saikrishnaanugu/cis6930sp24-assignment1" class="button">View More</a></li>
+										<li><a href=" " class="button">View More</a></li>
 									</ul>
 								</article>
 							</section>					
