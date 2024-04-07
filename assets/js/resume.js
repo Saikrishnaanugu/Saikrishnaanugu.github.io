@@ -7,7 +7,7 @@ function downloadPDF() {
     const a = document.createElement('a');
 
     // Set the href attribute with the path to the PDF file
-    a.href = "documents/sai krishna resume .pdf";					                            
+    a.href = pdfPath;					                            
     a.target = '_blank';
 
     // Set the download attribute with the desired file name
